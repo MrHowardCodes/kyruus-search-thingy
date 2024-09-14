@@ -1,2 +1,2 @@
 I developed an innovative search tool for a hospital system, showcasing the capabilities of a unified search experience powered by the Kyruus API. This tool allows users to effortlessly find supporting physicians using generic search terms. It serves as a key component of a larger project focused on seamless Drupal integration.
-![Example](https://github.com/mrhowardcodes/kyruus-search-thingy/kyruus-thingy.png)
+![Example](https://github.com/mrhowardcodes/kyruus-search-thingy/blob/main/kyruus-thingy.png)
