@@ -4,8 +4,8 @@ async function fetchAndDisplayData() {
     const url = "https://api.kyruus.com/oauth2/token";
 
     const data = new URLSearchParams({
-      client_id: "2201pkqt_drupal_project",
-      client_secret: "c29a0925b27c4c248f73a0db9cf13bd9",
+      client_id: "xxxxxx_xxxxxxxx_xxxxxx",
+      client_secret: "xxxxxxxxxxxxxxxxxxxxxxx",
       grant_type: "client_credentials",
     });
 
@@ -21,7 +21,6 @@ async function fetchAndDisplayData() {
       if (response.ok) {
         const responseData = await response.json();
         const access_token = responseData.access_token;
-        console.log("Access token:", access_token);
         return access_token;
       } else {
         console.log(
